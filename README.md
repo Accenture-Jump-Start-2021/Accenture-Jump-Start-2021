@@ -23,7 +23,7 @@
     - DNS (Buy domain)
     - about.html
 - Advanced websites
-    - Static Site Generation (Gatsby)
+    - Static Site Generation (Gatsby, JAM Stack)
     - CMS
         - Traditional (Wordpress)
         - Headless CMS (Strapi)
