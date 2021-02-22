@@ -57,6 +57,10 @@
     - Postman
 - Pluralsight Angular courses
 
+# Courses
+- https://www.w3schools.com/
+- https://www.freecodecamp.org/
+
 # Useful
 
 - [Developer Roadmap](https://github.com/kamranahmedse/developer-roadmap)
@@ -89,9 +93,9 @@
 - JavaScript
     - [https://javascript.info/](https://javascript.info/)
 - TypeScript
-    - [https://mariusschulz.com/blog/series/typescript-evolution](https://mariusschulz.com/blog/series/typescript-evolution)
-    - [https://github.com/typescript-exercises/typescript-exercises](https://github.com/typescript-exercises/typescript-exercises)
     - [https://github.com/labs42io/clean-code-typescript](https://github.com/labs42io/clean-code-typescript)
+    - [https://github.com/typescript-exercises/typescript-exercises](https://github.com/typescript-exercises/typescript-exercises)
+    - [https://mariusschulz.com/blog/series/typescript-evolution](https://mariusschulz.com/blog/series/typescript-evolution)
 - Angular
     - Component Design
         - [ngTemplateOutlet](https://www.youtube.com/watch?v=2SnVxPeJdwE&feature=youtu.be&t=842)
