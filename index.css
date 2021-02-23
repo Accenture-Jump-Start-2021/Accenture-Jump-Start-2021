@@ -17,6 +17,12 @@ body {
     align-items: center;
     padding: 20px;
     box-sizing: border-box;
+
+    
+}
+
+#card.hidden {
+    visibility: hidden;
 }
 
 #card img {
