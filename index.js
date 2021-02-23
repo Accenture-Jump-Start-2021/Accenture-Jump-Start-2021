@@ -7,8 +7,14 @@ const card = document.getElementById('card')
 const apiUrl = 'https://pokeapi.co/api/v2/pokemon/'
 const imageUrl = 'https://pokeres.bastionbot.org/images/pokemon/'
 
+let lastSearch
+
 async function updateCard() {
     const inputValue = searchInput.value
+    if(lastSearch === inputValue) {
+        return
+    }
+    lastSearch = inputValue
     try {
         card.classList.remove('animate__pulse')
         const response = await fetch(apiUrl + inputValue.toLowerCase()).then(response => response.json())
