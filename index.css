@@ -4,6 +4,8 @@
     margin-top: 50px;
     font-family: sans-serif;
     font-size: medium;
+    border: 1px solid #DDD;
+    border-collapse: collapse;
 }
 
 #table tr {
@@ -11,13 +13,18 @@
 }
 
 #table th {
-    text-align: left;
+    text-align: left; 
 }
 
 #table th, td {
     padding-left: 6px;
+    border: 1px solid #DDD;
 }
 
 #table tr:nth-child(even) {
     background: #DDD;
+}
+
+#table td:nth-child(odd) {
+    width: 60%;
 }
