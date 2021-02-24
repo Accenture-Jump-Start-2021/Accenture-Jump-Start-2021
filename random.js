@@ -1,5 +1,8 @@
-export function getRandomPokemonID(max){
-    return Math.floor(Math.random()*Math.floor(max));
+export function getRandomPokemonID(max = 898){
+    return Math.floor(Math.random()*Math.floor(max));   
 }
 
-console.log(getRandomPokemonID(898));
+ export function hrefFun() {
+    var strLink = "./detail.html&PID=" + getRandomPokemonID();
+    document.getElementById("DetailPokemon").setAttribute("href",strLink);
+}
