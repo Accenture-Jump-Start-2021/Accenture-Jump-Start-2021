@@ -1,6 +1,4 @@
 import {capitalise} from "./capitalise.js"
-const API_URL = 'https://pokeapi.co/api/v2/pokemon/'
-const IMAGE_URL = 'https://pokeres.bastionbot.org/images/pokemon/'
 
 const searchInput = document.getElementById('search-input')
 const searchButton = document.getElementById('search-button')
@@ -14,7 +12,7 @@ const getPokemon = (num) => {
       .then((res) => res.json())
       .then((data) => {
         picture.src = `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/${data.id}.png`;
-        nameField.innerHTML = data.name;
+        nameField.innerHTML = capitalise(data.name);
       });
   };
 
