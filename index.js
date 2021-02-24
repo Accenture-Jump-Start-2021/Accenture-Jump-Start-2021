@@ -23,9 +23,13 @@ async function getPokemonTable() {
         //Add EventListener to the row namecell
         cellName.addEventListener("click", function() {
             window.location.replace(`./detail.html?id=${data.results.map((name) => name.name)[i-1]}`);
+            var stateobj = {};
+            history.pushState(stateobj, "index", "index.html"); //index.html in die Browserhistory pushen
         });
         cellId.addEventListener("click", function() {
             window.location.replace(`./detail.html?id=${i}`);
+            var stateobj = {};
+            history.pushState(stateobj, "index", "index.html"); //index.html in die Browserhistory pushen
         });
     }
 }
