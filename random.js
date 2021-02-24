@@ -3,6 +3,6 @@ export function getRandomPokemonID(max = 898){
 }
 
  export function hrefFun() {
-    var strLink = "./detail.html&PID=" + getRandomPokemonID();
+    var strLink = "./detail.html&iD=" + getRandomPokemonID();
     document.getElementById("DetailPokemon").setAttribute("href",strLink);
 }
