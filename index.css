@@ -1,0 +1,30 @@
+#table {
+    width: 60%;
+    margin: auto;
+    margin-top: 50px;
+    font-family: sans-serif;
+    font-size: medium;
+    border: 1px solid #DDD;
+    border-collapse: collapse;
+}
+
+#table tr {
+    height: 30px;
+}
+
+#table th {
+    text-align: left; 
+}
+
+#table th, td {
+    padding-left: 6px;
+    border: 1px solid #DDD;
+}
+
+#table tr:nth-child(even) {
+    background: #DDD;
+}
+
+#table td:nth-child(odd) {
+    width: 60%;
+}
