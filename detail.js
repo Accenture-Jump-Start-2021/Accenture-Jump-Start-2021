@@ -7,7 +7,6 @@ const searchButton = document.getElementById('search-button')
 const picture = document.getElementById('avatar')
 const nameField = document.getElementById('name')
 const card = document.getElementById('card')
-<<<<<<< HEAD
 
 const getPokemon = (num) => {
   
@@ -20,5 +19,7 @@ const getPokemon = (num) => {
   };
 
 searchButton.addEventListener("click", () => getPokemon(searchInput.value));
-=======
->>>>>>> develop
+
+const urlParams = new URLSearchParams(window.location.search);
+const param = urlParams.get('id');
+getPokemon(param)
