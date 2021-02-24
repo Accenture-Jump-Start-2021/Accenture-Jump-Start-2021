@@ -24,3 +24,7 @@
 #table tr:nth-child(even) {
     background: #DDD;
 }
+
+#table td:nth-child(odd) {
+    width: 60%;
+}
