@@ -1,3 +1,4 @@
+import "./random.js";
 const table = document.getElementById("table");
 
 /*Function for requesting a specific Pokemon
